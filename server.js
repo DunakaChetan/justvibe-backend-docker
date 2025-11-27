@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8080;
 // CORS configuration - allows both local development and production frontend
 const allowedOrigins = [
     'http://localhost:5173',  // Local development
-    'http://localhost:30083',  // Alternative local port
+    'http://localhost:30082',  // Alternative local port
     'https://justvibe-eight.vercel.app',  // Production frontend
     process.env.CORS_ORIGIN  // Additional origin from environment variable
 ].filter(Boolean); // Remove any undefined values
